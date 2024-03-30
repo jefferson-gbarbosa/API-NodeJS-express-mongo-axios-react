@@ -1,0 +1,118 @@
+.form_container{
+    position: fixed;
+    max-width: 420px;
+    width: 100%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    z-index: 101;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid var(--text);
+}
+#h2_login{
+    font-size: 2.4rem;
+    margin-bottom: 0.1rem;
+    color: var(--text);
+}
+#text_login{
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: var(--text-gray);
+}
+.forgot_box{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+.forgot{
+    font-size: 1.4rem;
+    color: var(--secondary);
+    cursor: pointer;
+}
+.login_signup{
+    color: var(--secondary);
+    text-align: center;
+
+}
+.login_signup a{
+    color: var(--text);
+}
+.forgot:hover,
+.login_signup a:hover {
+    color: var(--text-gray);
+    text-decoration: underline;
+}
+
+.Toastify__toast {
+    font-size: 1.6rem;
+}
+/* CUSTOM CSS ANT DESIG*/
+:where(.css-dev-only-do-not-override-djtmh8).ant-card .ant-card-body{
+    padding: 20px;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-form-item .ant-form-item-control-input{
+    max-width: inherit;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined {
+    border: none;
+    border-bottom: 1.5px solid var(--text-gray);   
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-form-item .ant-form-item-feedback-icon-success{
+    color: var(--primary);
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-affix-wrapper{
+    border-radius: 0;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+    border: none;
+    border-bottom: 1.5px solid #ff4d4f;   
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled):focus, 
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled):focus-within{
+
+    box-shadow: none;
+    border-bottom: 1.5px solid #ff4d4f;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined:focus, 
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined:focus-within{
+    box-shadow: none;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled):hover{
+    border-color: #ff4d4f;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined:focus, 
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined:focus-within,
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined:hover{
+    color: var(--primary);
+    border-color: var(--primary);
+
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-outlined{
+    color: var(--text-gray);
+}
+.ant-input-affix-wrapper .anticon.ant-input-password-icon:hover{
+    color: var(--primary);
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-affix-wrapper >input.ant-input{
+    color: var(--text);
+}
+.ant-btn-primary{
+    background: var(--primary); 
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #fff;
+    background: var(--primary-lighter);
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-btn {
+    width: 100%;
+    height: 44px;
+}
+
+@media screen and (max-width: 380px) {
+    .form_container {
+        max-width: 350px;
+    }   
+}
